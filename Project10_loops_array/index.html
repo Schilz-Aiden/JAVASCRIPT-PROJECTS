@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="JS/main.js"></script>
+    </head>
+    <body>
+        <p id="Loop"></p>
+        <button onclick="Call_Loop()">Click here to execute the loop.</button>
+        
+        <p id="List_of_Instruments"></p>
+        <button onclick="for_Loop()">Click here for a for loop.</button>
+        
+        <p id="Array"></p>
+        <button onclick="array_Function()">Click here for an array.</button>
+
+        <p id="Constant"></p>
+        <button onclick="constant_function()">Click here for a constant function!</button>
+        
+        <p id="Let"></p>
+        <button onclick="let_keyword()">Click for a let keyword.</button>
+
+        <p id="name"></p>
+
+        <p id="Car_Object"></p>
+        <button onclick="Object_Example()">Click here.</button>
+        
+        <P id="break"></P>
+        <button onclick="break_Statement()">Click here for a break statement.</button>
+        
+        <p id="continue"></p>
+        <button onclick="continue_Statement()">Click here for a continue statement.</button>
+        <script>
+            document.getElementById("name").innerHTML = return_Statement("Aiden");
+
+            function return_Statement(name) {
+                return "Hello " + name;
+            }
+        </script>
+
+        
+    </body>
+</html>
