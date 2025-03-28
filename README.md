@@ -16,7 +16,7 @@ the computer. The program rolls dice and chooses who will go first and whoever w
 will get a celebratory music.
 
 ###Academy Cinemas
-Although I wrote this code in a earlier course we did go back to it to add javascript to it.
-In this program you can now choose which of 3 movies you'd like to see and also see their ratings.
-After choosing the movie, time, and how many tickets it will give you a popup that tells you what you
-just selected.
+This program is a website to a movie theater. It has a few movies with star ratings 
+connected to each movie poster. At the bottom of the page you can select your movie, the show time, and the 
+number of tickets. When you click buy tickets the program finds what information you inputed in for each category
+and gives you a pop up that stays in the middle of your screen showing what you just purchased.
